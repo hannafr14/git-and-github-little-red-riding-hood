@@ -63,3 +63,10 @@ project/
 ├── style.css
 └── README.md
 ```
+
+## Live Demo
+https://hannafr14.github.io/git-and-github-little-red-riding-hood/
+
+## Screenshot
+
+![Website Screenshot](images/screenshot.png)
