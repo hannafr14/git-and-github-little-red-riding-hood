@@ -379,6 +379,50 @@ main {
     text-align: center;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 14%;
+    background-color: #7c0202;
+    color: #fff8f0;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-info p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    list-style: none;
+}
+
+.social-list a {
+    display: flex;
+    color: #fff8f0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-list a:hover {
+    color: #ffd6a5;
+    transform: translateY(-2px);
+}
+
+.social-list svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
 @media (max-width: 768px) {
     html {
         scroll-padding-top: 140px;
@@ -512,5 +556,12 @@ main {
     .about-project img,
     .about-project p {
         justify-self: center;
+    }
+
+    footer,
+    .footer-info {
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
     }
 }
